@@ -1,0 +1,6063 @@
+{
+    "result": {
+        "a11y_enable_hook_scan": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "a11y_screen_reader": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "a11y_screen_reader_phash_threshold": {
+            "variant": {
+                "payload": {
+                    "screen": 95,
+                    "scroll": 90
+                },
+                "key": "default-phash-threshold"
+            }
+        },
+        "accessibility-build-level-report": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "accessibility-build-view": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "accessibility-keyboard-scan": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "accessibility-tool-access": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "accessibility_ai_issues": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "accessibility_free_trial_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "accessibility_hide_issues": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "accessibility_ios_agent_settings": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "accessibility_mobile_merge_reports": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "accessibility_retry_on_device_failure": {
+            "variant": {
+                "key": "0"
+            }
+        },
+        "accessibility_rules_exclusion": {
+            "variant": {
+                "payload": {
+                    "disabled": [
+                        "InteractiveRoleUndefined",
+                        "RedundantRoleInLabel",
+                        "RedundantStateInLabel",
+                        "EmojiOrSymbolInLabel"
+                    ]
+                },
+                "key": "disabled"
+            }
+        },
+        "accessibility_scan_retry_enabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "accessibility_scheduling": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "accessibility_scheduling_crawler": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "accessibility_scheduling_page_load_strategy": {
+            "variant": {
+                "key": "eager"
+            }
+        },
+        "accessibility_unified_score": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "accessibility_url_hash_aggregation": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "accessibility_web_ai_issues": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "accessibility_xml_upload": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ad_block_domains": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ai_accessibility_scheduling": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "allow_all_appium_caps": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "app-distribution-enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "app-hyper-lt1-parent-context-v1": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "app-manager-download-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "app-manager-vd": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "app_accessibility_platform_filter": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "apply_custom_filters": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "aqtt-widget-open-search": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-ai-rca-artefacts-config": {
+            "variant": {
+                "payload": {
+                    "command_log": true,
+                    "console_log": true,
+                    "device_log": true,
+                    "network_log": true,
+                    "scenario_log": true,
+                    "screenshot": false
+                },
+                "key": "exclude-screenshots"
+            }
+        },
+        "atx-ai-rca-mode": {
+            "variant": {
+                "key": "manual"
+            }
+        },
+        "atx-ai-rca-single-llm-mode": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-ai-rca-standard-automation": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-apitest-health-view": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-apitest-status-ratio": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-apitest-suite-health": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-apitest-time-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-apitest-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-app-test-device": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-app-test-os": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-app-test-summary": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-app-test-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-aqtt": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-backfill-live-stream-falcon-data": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-backfill-live-stream-group-concurrency-data": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-backfill-live-stream-hye-data": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-backfill-live-stream-ml-data": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-backfill-live-stream-mobile-data": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-backfill-live-stream-mobile-manual-data": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-backfill-live-stream-org-concurrency-data": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-backfill-live-stream-smartui-data": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-backfill-live-stream-user-concurrency-data": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-bchs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-browser-test-browser": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-browser-test-device": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-browser-test-os": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-browser-test-summary": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-browser-test-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-build-test-duration-trends": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-build-time-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-claude-command-log-send": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-clemc": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-clest": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-clss": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-clsst": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-cltt": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-coalesce-command-log-send": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-concurrency-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-copilot-builder": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-copilot-plan": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-copilot-vendor": {
+            "variant": {
+                "key": "bedrock"
+            }
+        },
+        "atx-custom-filters-dashboard": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-dashboard-copilot": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-dashboard-template-allure-widgets": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-deployment-banner": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-email-setting": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-error-categorisation-stats": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-error-stats": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-fetch-files-from-s3": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "atx-filter-filterdevicetype": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-flakiness-summary": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-flakiness-test-group": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-flakiness-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-hye-cy-det-cmd-log-send": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-inline-drilldown": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-insight-weekly-flag": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-insight-weekly-stats": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-insight-weekly-v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-job-insights": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-job-queue-time-trend": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-job-summary": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-job-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-mobile-testcases": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-open-search-api": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-opensearch-edit-widget": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-os-external": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-os-search-mode": {
+            "variant": {
+                "key": "single"
+            }
+        },
+        "atx-pdf-auto-height": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "atx-primer": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-process-claude-logs": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "atx-process-etl-coalesce-logs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-accessibility": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-app-performance": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-atx-sdk": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-cdp-command-logs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-hye-api-report": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-hye-mochawesome": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-hye-performance-testing": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-hye-playwright": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-hye-selenium-command-logs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-loadtesting": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-ml-selenium-command-logs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-process-etl-data-smartui": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-rca-llm-model": {
+            "variant": {
+                "payload": {
+                    "model": "gpt-5-nano",
+                    "provider": "openai"
+                },
+                "key": "openai-gpt-5-nano"
+            }
+        },
+        "atx-realdevice": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-realtime": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-smart-retry-dummy": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-smarttag": {
+            "variant": {
+                "key": "frontend-and-backend"
+            }
+        },
+        "atx-smartui": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-stage-group": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-stage-summary": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-stage-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-suborg-concurrency-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-suborg-product-usage": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-suborg-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-subs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-suibsr": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-suibt": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-suis": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-suisbd": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-suist": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-suivc": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-task-status-ratio": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-task-summary": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-task-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-task_status_ratio": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-tchs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-tcshs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-tcv": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-test-browser": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-test-device-coverage": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-test-os": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-test-overview": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-test-pass-fail-ratio": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-test-summary": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-test-time-trends": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-testcase-mode": {
+            "variant": {
+                "key": "command-status"
+            }
+        },
+        "atx-ubg": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-weekly-report": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "atx-widget-command-trends": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widget-command-type-error": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widget-concurrency-trends": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widget-error-stats": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widget-flakiness-trends": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widget-job-queue-time-trend": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widget-job-trends": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widget-pie-charts": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widget-stage-trends": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widget-task-trends": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widget-test-status-ratio": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx-widget-test-trends": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widgets-command-summary": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "atx-widgets-groups": {
+            "variant": {
+                "payload": {
+                    "widgets": [
+                        "TCHS",
+                        "TEST_SUMMARY",
+                        "TEST_BROWSER",
+                        "TEST_OS",
+                        "TEST_OVERVIEW",
+                        "CONCURRENCY_TRENDS",
+                        "ERROR_STATS",
+                        "TEST_PASS_FAIL_RATIO",
+                        "JOB_TRENDS",
+                        "STAGE_TRENDS",
+                        "TASK_TRENDS",
+                        "TEST_DEVICE_COVERAGE",
+                        "JOB_SUMMARY",
+                        "TASK_SUMMARY",
+                        "STAGE_SUMMARY",
+                        "TASK_STATUS_RATIO",
+                        "JOB_QUEUE_TIME_TREND",
+                        "BCHS",
+                        "FLAKINESS_TRENDS",
+                        "FLAKINESS_SUMMARY",
+                        "FLAKINESS_TEST_GROUP",
+                        "CLEMC",
+                        "CLSS",
+                        "CLEST",
+                        "CLTT",
+                        "TCSHS",
+                        "TCV",
+                        "SUIS",
+                        "SUBS",
+                        "SUIBT",
+                        "SUIST",
+                        "SUISBD",
+                        "SUIVC",
+                        "SUIBSR",
+                        "BROWSER_TEST_SUMMARY",
+                        "APP_TEST_SUMMARY",
+                        "BROWSER_TEST_OS",
+                        "APP_TEST_OS",
+                        "BROWSER_TEST_BROWSER",
+                        "BROWSER_TEST_DEVICE",
+                        "APP_TEST_DEVICE",
+                        "BROWSER_TEST_TRENDS",
+                        "APP_TEST_TRENDS",
+                        "AQTT",
+                        "TEST_TIME_TRENDS",
+                        "BUILD_TIME_TRENDS",
+                        "SUBORG_TRENDS",
+                        "SUBORG_PRODUCT_USAGE",
+                        "SUBORG_CONCURRENCY_TRENDS",
+                        "APITEST_TIME_TRENDS",
+                        "APITEST_STATUS_RATIO",
+                        "APITEST_TRENDS",
+                        "APITEST_SUITE_HEALTH",
+                        "APITEST_HEALTH_VIEW",
+                        "TMS_TEST_CASES_SUMMARY",
+                        "TMS_BUILDS_SUMMARY",
+                        "TMS_ISSUES_SUMMARY",
+                        "TMS_TEST_CASES_TREND",
+                        "TMS_TEST_CASES_TYPES",
+                        "UBG",
+                        "DEVICE_STATUS",
+                        "OVERALL_DEVICE_USAGE_TRENDS",
+                        "UBU",
+                        "UBSUBORG",
+                        "USERS_PER_PRODUCT",
+                        "USAGE_FREQUENCY_PER_PRODUCT",
+                        "PEAK_USAGE_TIMES",
+                        "USAGE_TRENDS_OVER_TIME",
+                        "UNIQUE_APPLICATIONS_INFO",
+                        "DEVICE_USAGE_INSIGHTS",
+                        "ACCESSIBILITY_TEST_OVERVIEW",
+                        "SCAN_SUMMARY",
+                        "URL_ISSUE_SUMMARY",
+                        "SUBORG_CONCURRENCY_UTILIZATION",
+                        "SUBORG_RUNNING_TESTS_TREND",
+                        "SUBORG_PRODUCT_TREND",
+                        "SUBORG_RUNNING_VS_QUEUED_TREND",
+                        "SUBORG_RUNNING_VS_QUEUED",
+                        "SMART_TAGS_SUMMARY",
+                        "AUTO_HEALED_LIST",
+                        "PERFORMANCE_SUMMARY",
+                        "RCA_CATEGORY_TRENDS",
+                        "FAILURE_CATEGORY_TRENDS",
+                        "GROUP_CONCURRENCY_TRENDS",
+                        "CUSTOM_CONCURRENCY_TRENDS",
+                        "TMS_MILESTONE_TRENDS",
+                        "TMS_PROGRESS_GAUGE",
+                        "TMS_BURNDOWN_CHART",
+                        "TMS_DEFECTS_BY_SEVERITY",
+                        "TMS_TESTER_ASSIGNMENT"
+                    ]
+                },
+                "key": "on"
+            }
+        },
+        "atx_custom_dashboard_widget": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx_cypress_report": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx_internal_insights": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx_project_insights": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "atx_test_insights": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "auteur": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "auteur-debugger": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "auteur_llm_regions": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "automate-tms-suggested-tests": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "automation-insights": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "automation-test-cases": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "bifurcation_via_automind": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "block-gtm-kaneai": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "build-insights-revamp": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "build-insights-test-cases": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "build_active_duration": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "buy-a-plan-vs-upgrade-button-for-freemium-users": {
+            "variant": {
+                "payload": {
+                    "btnText": "Add To Cart"
+                },
+                "key": "add-to-cart"
+            }
+        },
+        "capture_screenshot_on_error": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "cdp_enable_linux": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "cdp_fetch_pwbundle_browser_from_db": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "cdp_linux_enable_firefox_webkit": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "cdp_start_test_after_setup": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "combined_universal_resigner_url": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "command-logs": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "command-logs-v2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "command_log_search": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "crawler_js_rendering": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "credit_distribution_suborg": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "custom_tunnel_server_domain": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "custom_w3c_command_delay": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "cy_accessibility_overide_commands": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "cypress_npm_install_optimised": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "cypress_wasabi_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "datapipeline": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "demo_dot": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "dot-primerui": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "dot_color_theme": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "dot_enable_large_image_comparison": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "dot_pdf": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "dot_smart_rca": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "dot_smartignore": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "dot_smartui_cli_build_name": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "dot_smartui_ss_page": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "dot_velt_comments": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "dot_vision_ai": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "dotui_smartui_coded_regions": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "dynamic_sidebar_nav": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "emulate_sauce_duration": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "emulate_sauce_duration_ms": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "emulator_app_updated_webview": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "emulator_config": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "emulator_custom_adb_command": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "emulator_docker_images": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "emulator_flags": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "emulator_snapshot_boot": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "emulator_web_snapshot_boot": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "enable-manual-interaction-kaneai": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "enable_emulator_mac_check": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "enable_lmao": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "enable_lt_geoproxy": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "enable_mobile_pw_debug_logs_upload": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "enable_new_sidebar": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "enable_rook_ui": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "enable_userflow": {
+            "variant": {
+                "payload": {
+                    "https://stage-accessibility.lambdatestinternal.com/": true,
+                    "https://stage-appautomation.lambdatestinternal.com/": true,
+                    "https://stage-applive.lambdatestinternal.com/": true,
+                    "https://stage-automation.lambdatestinternal.com": true,
+                    "https://stage-eu-automation.lambdatestinternal.com": true,
+                    "https://stage-hyperexecute.lambdatestinternal.com": true,
+                    "https://stage-hyperexecute.lambdatestinternal.com/": true
+                },
+                "key": "true"
+            }
+        },
+        "enablebrightdata": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "enablewasabi": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "falcon_manualdashboard": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "falcon_primer_revamp": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl-disable-browser": {
+            "variant": {
+                "payload": [
+                    "Comet",
+                    "Atlas"
+                ],
+                "key": "true"
+            }
+        },
+        "fl-disable-drag-click": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl-enable-mac-virtualisation": {
+            "variant": {
+                "payload": {
+                    "ios-14.5-app": {},
+                    "ios-14.5-web": {
+                        "browsers": [
+                            "chrome",
+                            "safari",
+                            "chromium",
+                            "firefox",
+                            "mozilla"
+                        ]
+                    },
+                    "ios-15.5-app": {},
+                    "ios-15.5-web": {
+                        "browsers": [
+                            "chrome",
+                            "safari",
+                            "chromium",
+                            "firefox",
+                            "mozilla"
+                        ]
+                    },
+                    "ios-16.4-app": {},
+                    "ios-16.4-web": {
+                        "browsers": [
+                            "chrome",
+                            "safari",
+                            "chromium",
+                            "firefox",
+                            "mozilla",
+                            "duckduckgo"
+                        ]
+                    },
+                    "ios-17.5-app": {},
+                    "ios-17.5-web": {
+                        "browsers": [
+                            "chrome",
+                            "safari",
+                            "chromium",
+                            "firefox",
+                            "mozilla",
+                            "brave",
+                            "duckduckgo"
+                        ]
+                    },
+                    "ios-18.4-app": {},
+                    "ios-18.4-web": {
+                        "browsers": [
+                            "chrome",
+                            "safari",
+                            "chromium",
+                            "firefox",
+                            "mozilla",
+                            "brave",
+                            "duckduckgo"
+                        ]
+                    },
+                    "ios-18.5-app": {},
+                    "ios-18.5-web": {
+                        "browsers": [
+                            "chrome",
+                            "safari",
+                            "chromium",
+                            "firefox",
+                            "mozilla",
+                            "brave",
+                            "duckduckgo"
+                        ]
+                    },
+                    "ios-26.0-app": {},
+                    "ios-26.0-web": {
+                        "browsers": [
+                            "safari",
+                            "firefox",
+                            "mozilla",
+                            "brave",
+                            "duckduckgo",
+                            "chromium",
+                            "chrome"
+                        ]
+                    },
+                    "ios-26.2-app": {},
+                    "ios-26.2-web": {
+                        "browsers": [
+                            "safari",
+                            "firefox",
+                            "mozilla",
+                            "brave",
+                            "duckduckgo",
+                            "chromium",
+                            "chrome"
+                        ]
+                    },
+                    "ios-26.4-app": {},
+                    "ios-26.4-web": {
+                        "browsers": [
+                            "safari",
+                            "firefox",
+                            "mozilla",
+                            "brave",
+                            "duckduckgo",
+                            "chromium",
+                            "chrome"
+                        ]
+                    },
+                    "ios-27.0-app": {},
+                    "ios-27.0-web": {
+                        "browsers": [
+                            "safari",
+                            "firefox",
+                            "mozilla",
+                            "brave",
+                            "duckduckgo",
+                            "chromium",
+                            "chrome"
+                        ]
+                    },
+                    "macos-goldengate": {
+                        "browsers": [
+                            "chrome",
+                            "safari",
+                            "edge",
+                            "comet",
+                            "firefox",
+                            "mozilla"
+                        ]
+                    },
+                    "macos-sequoia": {
+                        "browsers": [
+                            "chrome",
+                            "mozilla",
+                            "edge",
+                            "safari",
+                            "opera",
+                            "brave",
+                            "duckduckgo",
+                            "firefox"
+                        ]
+                    },
+                    "macos-sonoma": {
+                        "browsers": [
+                            "chrome",
+                            "firefox",
+                            "edge",
+                            "safari",
+                            "opera",
+                            "brave",
+                            "duckduckgo",
+                            "mozilla"
+                        ]
+                    },
+                    "macos-tahoe": {
+                        "browsers": [
+                            "chrome",
+                            "safari",
+                            "edge",
+                            "comet",
+                            "firefox",
+                            "mozilla"
+                        ]
+                    },
+                    "macos-ventura": {
+                        "browsers": [
+                            "chrome",
+                            "firefox",
+                            "edge",
+                            "safari",
+                            "opera",
+                            "brave",
+                            "duckduckgo",
+                            "mozilla"
+                        ]
+                    }
+                },
+                "key": "true"
+            }
+        },
+        "fl-remove-moretools-sidebar": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_collabrative_testing": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "fl_device_sdk": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_disable_desktop_os_version_id": {
+            "variant": {
+                "payload": [
+                    "OSV100021498719908705",
+                    "OSV100021498719908703"
+                ],
+                "key": "true"
+            }
+        },
+        "fl_disable_geoproxy": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "fl_disable_os_version_id": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_disable_screenshot_overflow_scroll": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_emulator_animation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_emulator_gpu_mode": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_enable_chromeos": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "fl_enable_dc_region_selector": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "fl_enable_new_adb_shell": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "fl_enable_scrcpy_android": {
+            "variant": {
+                "payload": [
+                    "OSV100021498719908695",
+                    "OSV100021498719908702",
+                    "OSV100021498719908707",
+                    "OSV100021498719908715"
+                ],
+                "key": "true"
+            }
+        },
+        "fl_enable_scrcpy_for_android": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_enable_vdi_interaction": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_enable_webrtc_metrics": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "fl_high_resolution_screenshots": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_ims": {
+            "variant": {
+                "payload": {
+                    "os_version": [
+                        "OSV100021498719908695",
+                        "OSV100021498719908686",
+                        "OSV100021498719908679",
+                        "OSV100021498719908671",
+                        "OSV100021498719908702",
+                        "OSV100021498719908664",
+                        "OSV100021498719908659",
+                        "OSV100021498719908707",
+                        "OSV100021498719908715",
+                        "OSV100021498719908705",
+                        "OSV100021498719908710",
+                        "OSV100021498719908709",
+                        "OSV100021498719908654",
+                        "OSV100021498719908712",
+                        "OSV100021498719908714",
+                        "OSV100021498719908711",
+                        "OSV100021498719908697",
+                        "OSV100021498719908703",
+                        "OSV100021498719908696",
+                        "OSV100021498719908691",
+                        "OSV100021498719908622",
+                        "OSV100021498719908675",
+                        "OSV100021498719908689",
+                        "OSV100021498719908677",
+                        "OSV100021498719908629",
+                        "OSV100021498719908716",
+                        "OSV100021498719908607",
+                        "OSV100021498719908718",
+                        "OSV100021498719908719"
+                    ]
+                },
+                "key": "win10-win11-macvirtalized-androidall"
+            }
+        },
+        "fl_mac_virtualized_vm": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_ml_merger_templates": {
+            "variant": {
+                "payload": [
+                    "OSV100021498719908697",
+                    "OSV100021498719908691",
+                    "OSV100021498719908676",
+                    "OSV100021498719908668",
+                    "OSV100021498719908618"
+                ],
+                "key": "true"
+            }
+        },
+        "fl_mp4_video_params": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_new_file_upload_download": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "fl_on_screen_keyboard_macos": {
+            "variant": {
+                "payload": {
+                    "os_version_id": [
+                        "OSV100021498719908712",
+                        "OSV100021498719908705",
+                        "OSV100021498719908697",
+                        "OSV100021498719908691",
+                        "OSV100021498719908718"
+                    ]
+                },
+                "key": "true"
+            }
+        },
+        "fl_proximity_based_vm_allocation": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "fl_simulator_mock_capture": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "fl_use_new_guacamole_service": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ftd-v2": {
+            "variant": {
+                "key": "frontend-and-backend"
+            }
+        },
+        "go_engine_a11y_rules": {
+            "variant": {
+                "payload": {
+                    "ruleIds": [
+                        "MissingViewAccessibility",
+                        "UnlabeledCheckboxElement",
+                        "UnlabeledToggleControl",
+                        "MissingImageAlt",
+                        "MissingFieldLabel",
+                        "InsufficientTargetSpacing",
+                        "UndersizedTouchTarget"
+                    ]
+                },
+                "key": "general-access"
+            }
+        },
+        "he_test_tags_latest_run_filter": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "header-upgrade-cta": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "helios_enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hide_author_buttons": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hide_chat_bot": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "host_affinity_simulators": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hps_max_session_attempts": {
+            "variant": {
+                "payload": {
+                    "HYPRaw": 5,
+                    "RDAppAutomation": 5,
+                    "RDBrowserAutomation": 5,
+                    "RDRaw": 5,
+                    "VDAppAutomation": 5,
+                    "VDBrowserAutomation": 5
+                },
+                "key": "max"
+            }
+        },
+        "hps_unsupported_commands": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hps_v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hps_v2_cdp": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hps_v2_rd_app": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hps_v2_rd_web": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hps_v2_secdp": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hps_v2_vd_app": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hps_v2_vd_web": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hye-accessibility-build-level-report": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-allocatehubaftereachstageinconcurrentsession": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-allow-azure-url-from-tunnel": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-allow-file-upload": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-allow-sas-gen-via-shared-key": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-allure-atx-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-application-error-message": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-artefacts-sdk-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-artifacts-os-info": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-auto-heal": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-auto-redirect-dynamic-discovery": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-azcopy-config": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-azure-cdn-enabled": {
+            "variant": {
+                "payload": {
+                    "azure-linux-eastus": false,
+                    "azure-windows-eastus": false
+                },
+                "key": "variant1"
+            }
+        },
+        "hye-brightdata": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-bypass-emulator-test": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-capture-screenshot-on-error": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-categorizederrors": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-chrome-mac-stability-args": {
+            "variant": {
+                "payload": {
+                    "args": [
+                        "--no-sandbox",
+                        "--disable-gpu-sandbox",
+                        "--disable-software-rasterizer",
+                        "--disable-dev-shm-usage"
+                    ]
+                },
+                "key": "on"
+            }
+        },
+        "hye-command-log-send": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-cucumber-embedding-to-link": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-cucumber-reports": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-cy-det-cmd-log-upload": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-cypress-accessibility-override": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-cypress-atx-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-cypress-multi-reporter-disabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-cypress-runon-hyper": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-default-tag": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-delete-tests-on-rescheduling-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-disable-c-directory-cache": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-disable-extension-jar-download": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-disable-lnrc-restart-on-stage-timeout": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-disable-on-demand-rescheduling-enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-disable-pageload-strategy-caps": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-disable-secrets-cache": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-download-config": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-dynamic-rescheduling-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-embed-extent-native-images": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-enable-azure-sdk": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-enable-bandwidth-metrics": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-enable-cli-file-lock": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-enable-influx-api": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-enable-martian-debug-logs": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-enable-metrics-collector": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-enable-ngtests-utf8-encoding": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-enable-rerun-ui": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-enable-sse-cli": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-enable-test-insights-filter": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-enable-trace-hawk": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-enable-yaml-in-workflow": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-enhance-extent-json-from-html": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-expand-scenario-name": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-extent-native-path-to-link": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-ff_custom_upload_sas_duration_key": {
+            "variant": {
+                "payload": {
+                    "seconds": 7200
+                },
+                "key": "7200"
+            }
+        },
+        "hye-firefox": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-firefox-bidi-console": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-firefox-profile": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-forbidden-hub-blocking": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-foreman-report-generation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-gatling-performance-test-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-generate-mp4": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-global-policies-enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-group-conc": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-he_bypass_commands": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-he_webdriver_mode": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-hide-cmd-log": {
+            "variant": {
+                "payload": {
+                    "pathRegexToIgnore": [
+                        ".*/se/log"
+                    ]
+                },
+                "key": "on"
+            }
+        },
+        "hye-hide-delete-artifacts": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-hide-generate-rca": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-hide-parallel-concurrency-details": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-hide-run-on-gitpod": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-hide-status-cypress-custom-report": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-hide-system-proxy": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-hide-yaml-ui": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-hps-server-config": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-hps_v2_hyp": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hye-hyp-cdp-martian-overrides": {
+            "variant": {
+                "payload": {
+                    "enableChunkedStreaming": false,
+                    "mitmBypassDomains": "admitkard\\.com"
+                },
+                "key": "on"
+            }
+        },
+        "hye-ims-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-insights": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-insigts": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-is_job_cache_enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-jdk17-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-jmeter-backend-listener-value": {
+            "variant": {
+                "payload": {
+                    "db": "influx"
+                },
+                "key": "influx-db"
+            }
+        },
+        "hye-jmeter-java-version-change": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-jmeter-jobs-cache": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-jmeter-properties-allowlist": {
+            "variant": {
+                "payload": {
+                    "keys": [
+                        "jmeter.save.saveservice.subresults",
+                        "httpclient.socket.https.cps",
+                        "jmeter.save.saveservice.output_format"
+                    ]
+                },
+                "key": "on"
+            }
+        },
+        "hye-jmeter-results-csv-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-jmeter-workflows": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-job-detail-v1": {
+            "variant": {
+                "payload": {
+                    "disabled": {
+                        "": "",
+                        "gatling": "",
+                        "jmeter": "",
+                        "tosca": "",
+                        "tosca-dex": ""
+                    }
+                },
+                "key": "on"
+            }
+        },
+        "hye-job-list-use-job-number": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-job-secret-file": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-kane-html-report": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hye-lh-webhook-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-limit-test-screenshots": {
+            "variant": {
+                "payload": {
+                    "value": 150
+                },
+                "key": "on"
+            }
+        },
+        "hye-link-report-static-files-to-sas": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-live-interaction-enabled": {
+            "variant": {
+                "payload": {
+                    "darwin_playwright": true,
+                    "darwin_selenium": true,
+                    "linux_playwright": true,
+                    "linux_selenium": true,
+                    "windows_playwright": true,
+                    "windows_selenium": true
+                },
+                "key": "cdp-and-selenium"
+            }
+        },
+        "hye-live-task-metrics-influxdb-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-live-test-metric-fe": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-logs-categorization": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-mark-empty-artefact-complete": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-mhps-command-logs-v2": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-mhps-steps-enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hye-mock-cache-download-upload": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-org-summary": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-os-info-artifacts": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-pass-on-no-discovery": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-performance-testing": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-performance-testing-plan-validation": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-playwright-command-logs": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-playwright-parallel-execution": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-project_v2_superset": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-pwc-custom-hook": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-r2-enabled": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-rd-allocation-enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hye-report-type-with-framework": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-request-command-log-page-size": {
+            "variant": {
+                "payload": {
+                    "value": 100
+                },
+                "key": "100"
+            }
+        },
+        "hye-resolve-tunnel-website-in-dc": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-restart-services-after-scenario": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-restrict_sas_permissions_to_create": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-scenario-section-in-default-report": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-schedule-regenerate-allowed-projects": {
+            "variant": {
+                "payload": {
+                    "projects": [
+                        "01KPZGSXHMFB7ZK9KP71MJAV7J",
+                        "01KZZR0YAEYJXSEP19DHEBKP8Q",
+                        "01KZZR01KEEV7PNKMB8EGHBAPX"
+                    ]
+                },
+                "key": "on"
+            }
+        },
+        "hye-selenium-3-standalone": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-send-close-header": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-setup-runtime-from-local": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-show-git-app-integration": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-show-projects-v2": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-show-test-id-on-scenarios-tab": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-show-wait-queue-time-both": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-show-wait-time": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-show-yaml-ui": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-smart_ui_v2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-smartui-ignore-select-v2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-storage-config": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-task-remark": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-tcd-analytics": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-test-insight-api-db": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-test-muting-disabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-test-muting-fe": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-tunnel-load-balancing-v2": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-tunnel-prefer-private-ip": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-unbound": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-unified-projects": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-use-des-for-smartui-validation": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-use-gzip-to-upload": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-use-proxy": {
+            "variant": {
+                "payload": {
+                    "bypassURLs": "localhost,127.0.0.1",
+                    "setup-runtime-azure-linux-eastus": "http://10.26.1.17:80",
+                    "setup-runtime-azure-windows-eastus": "http://10.26.1.17:80"
+                },
+                "key": "on"
+            }
+        },
+        "hye-use_dynamic_os_version_config": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-v2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-v3-new-instance-page": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-v4-new-instance-page": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hye-vd-espresso-discovery": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-verbose-logging": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-video-live-streaming": {
+            "variant": {
+                "payload": {
+                    "darwin_selenium": true,
+                    "linux_selenium": true,
+                    "windows_selenium": true
+                },
+                "key": "on"
+            }
+        },
+        "hye-video-param": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-view_yaml_fe": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye-wasabi-enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-wasabi-enabled-none": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "hye-workflow-vars": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hye_custom_tunnel_server_domain": {
+            "variant": {
+                "payload": {
+                    "domain": "stage-hts-india.lambdatestinternal.com"
+                },
+                "key": "on"
+            }
+        },
+        "hye_gui_enable": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hyp-append-job-number": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hyp-job-notification-v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "hyp-open-products-in-hyperexecute": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "hyp-requestpagesize": {
+            "variant": {
+                "payload": {
+                    "value": 100
+                },
+                "key": "100"
+            }
+        },
+        "hyperexecute-testing-ff": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "implicit_wait": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ims_allocation_enabled": {
+            "variant": {
+                "payload": {
+                    "10.3": true,
+                    "11.4": true,
+                    "12.0": true,
+                    "13.0": true,
+                    "13.6": true,
+                    "14.1": true,
+                    "14.2": true,
+                    "14.3": true,
+                    "14.4": true,
+                    "14.5": true,
+                    "15.0": true,
+                    "15.2": true,
+                    "15.5": true,
+                    "16.0": true,
+                    "17.0": true,
+                    "17.2": true,
+                    "17.4": true,
+                    "17.5": true,
+                    "18.0": true,
+                    "18.1": true,
+                    "18.5": true,
+                    "26.0": true,
+                    "26.2": true,
+                    "android": true,
+                    "macos 10.12": true,
+                    "macos 10.14": true,
+                    "macos 10.15": true,
+                    "macos 11.0": true,
+                    "macos 12.0": true,
+                    "macos 13.0": true,
+                    "macos 14.0": true,
+                    "macos 15.0": true,
+                    "macos 26.0": true,
+                    "macos 27.0": true,
+                    "os x 10.10": true,
+                    "ubuntu-20": true,
+                    "win10": true,
+                    "win11": true,
+                    "win7": true,
+                    "win8": true,
+                    "win8.1": true
+                },
+                "key": "default"
+            }
+        },
+        "ims_capacity_type": {
+            "variant": {
+                "payload": [
+                    {
+                        "macos 27*": [
+                            "shared",
+                            "on_demand"
+                        ]
+                    },
+                    {
+                        "macos 26*": [
+                            "shared",
+                            "on_demand"
+                        ]
+                    },
+                    {
+                        "macos 14*": [
+                            "shared",
+                            "on_demand"
+                        ]
+                    },
+                    {
+                        "macos 13*": [
+                            "shared",
+                            "on_demand"
+                        ]
+                    },
+                    {
+                        "macos 15*": [
+                            "shared",
+                            "on_demand"
+                        ]
+                    },
+                    {
+                        "android": [
+                            "shared",
+                            "on_demand"
+                        ]
+                    },
+                    {
+                        "ios 16*": [
+                            "shared",
+                            "on_demand"
+                        ]
+                    },
+                    {
+                        "ios 17*": [
+                            "shared",
+                            "on_demand"
+                        ]
+                    },
+                    {
+                        "ios 18*": [
+                            "shared",
+                            "on_demand"
+                        ]
+                    },
+                    {
+                        "ios 2*": [
+                            "shared",
+                            "on_demand"
+                        ]
+                    },
+                    {
+                        "*": [
+                            "on_demand"
+                        ]
+                    }
+                ],
+                "key": "tahoe26shod-ventura13shod-sonoma14shod-sequoia15shod-android88shod-ios16shod-ios17shod-ios18shod-ios26shod-88od"
+            }
+        },
+        "ims_weighted_allocation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "integrations_primer": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "ip-cidr-restrictions-ui": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "is_credit_transactions_os_ingestion_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "is_free_user": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "is_google_stun_server_enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "is_job_cache_enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "is_matrix_enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "is_new_user": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "is_rbac_enabled_cloud": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "is_sanctum_enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "is_team_management_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "island-browser-enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane-ai-baseline-thought": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane-ai-overwatch": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane-extent-report": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane-heal-5-1": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane-textual-query-snapshot-v2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_ai_assertion_version2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_ai_clicks_order_code": {
+            "variant": {
+                "key": "se_ac_js"
+            }
+        },
+        "kane_ai_code_gen_simplified": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kane_ai_finetune": {
+            "variant": {
+                "payload": {
+                    "model_name": "gpt-4o-mini-2024-07-18-v5"
+                },
+                "key": "false"
+            }
+        },
+        "kane_ai_mac_llm": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "kane_ai_mac_llm_model": {
+            "variant": {
+                "key": "gemma3-4b-assertions"
+            }
+        },
+        "kane_ai_mobile_ss_unblock_streaming": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_ai_mobile_tagging_v2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_ai_mobile_user_access": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_ai_user_access": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_ai_vision_finetune": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_custom_vm_filter": {
+            "variant": {
+                "payload": {
+                    "kane-web-linux": {
+                        "where": {
+                            "capacity_types": [
+                                "spot"
+                            ]
+                        }
+                    }
+                },
+                "key": "false"
+            }
+        },
+        "kane_element_state_assertions": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kane_mlx_assertion": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_mlx_inference": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_module_db_storage": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_module_folders": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_module_tms": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_mssql_normalize_uuid": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_orchestration_v2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_prod_new_env": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_v3": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kane_v3_migration": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai-beta-tag-hide": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "kaneai-edit-advancedsettings": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai-ims-integration": {
+            "variant": {
+                "payload": [
+                    "hephaestus-ims2-scaleset-2"
+                ],
+                "key": "false"
+            }
+        },
+        "kaneai-new-test-instance-page": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai-smart-input": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai-smart-retry": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai-tcg-adv-settings": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai-v2-bifurcation-finetuned": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai-vqe-bool-shadow": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai-vqe-cache": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai-vqe-mobile-xml": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai-vqe-qwen-3-6": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai-web-app-components-monorepo": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_android_manual_interaction": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_api_import_assertions": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_appium_plugin": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_authoring_flow_restructure": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_baseline_thought": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_bifurcation_mode": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_block_module_update": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_bulk_automation": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_canvas_qwen": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "kaneai_centralised_ui_action": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "kaneai_click_orders": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_code_gen_network_caps": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_code_pr_integration": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_code_validation_flow_removal": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_conditional_module_page": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_coordinate_drag_drop": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_default_code_gen": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_delete_test_run_pipeline": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_desktop_element_resolver": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_enable_playwright": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_failure_condition": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_firefox_iframe_click": {
+            "variant": {
+                "payload": {
+                    "enabled": false
+                },
+                "key": "disabled"
+            }
+        },
+        "kaneai_global_variable": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_hide_adaptive_mode": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_hide_code_gen_frameworks": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_highlight_parameter": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_intent_generation_model_update": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_ios_manual_interaction": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_json_splitter": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_locate_vision_model": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_locator_autoheal_reliability": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_manual_interaction_pause_recording": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_martian_original_header_casing": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_max_snapshot_depth_setting": {
+            "variant": {
+                "key": "60"
+            }
+        },
+        "kaneai_mi_vision": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_mobile_app_element_resolver": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_mobile_browser": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_mobile_centralised_uiaction": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_mobile_manual_interaction": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_mobile_qwen": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "kaneai_mobile_qwen_bbox": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_mobile_qwen_only_vision": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "kaneai_mobile_real_display_size": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_mobile_smart_wait_android": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_mobile_smart_wait_ios": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_mobile_typing_text": {
+            "variant": {
+                "payload": {
+                    "android": false,
+                    "ios": false
+                },
+                "key": "default"
+            }
+        },
+        "kaneai_module_update": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_module_variable_check": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_multi_chrome": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_network_mocking": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_network_wait_for_all_actions": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_offline_editing": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_playground_bifurcation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_playground_paused_state": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_py_selenium_package": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_qtest_import": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_qwen3_web": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_qwen_xpath": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_scroll_element_until_element": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_selector_mode": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "kaneai_session_mode_shifter": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_stable_chrome": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_steps_ingestion": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_switch_tab_heal": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_tcg_conversation_layer": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_tcg_gherkin_output": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_test_case_merger": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_test_step_export_csv": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_tms_merger": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_updated_vqe": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_upload_in_proximity": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_upload_unified": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_v16": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_v16_mobile": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_v4_export_binding": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "kaneai_vortex": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_web_qwen": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_web_recorder": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "kaneai_while_loop_support": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "lmms_async_test_create": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "lt-agent-to-agent": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "lt_accessibility_flag": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "lt_app_vault": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "lt_centralized_projects": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ltma-tma-proxy-routes": {
+            "variant": {
+                "payload": {
+                    "public": {
+                        "ltma_create_test_video": {}
+                    },
+                    "user_auth_action": {
+                        "ltma_stop_session": {}
+                    },
+                    "user_auth_bulk": {
+                        "ltma_list_appium_inspector_sessions": {},
+                        "ltma_list_builds": {},
+                        "ltma_list_cypress_sessions": {},
+                        "ltma_list_sessions": {},
+                        "ltma_list_tests": {},
+                        "ltma_shared_tests": {},
+                        "ltma_stop_build": {},
+                        "ltma_test_timestamps": {}
+                    },
+                    "user_auth_create": {
+                        "ltma_add_session_exceptions": {},
+                        "ltma_add_test_exceptions": {},
+                        "ltma_upload_attachments": {},
+                        "ltma_upload_terminal_logs": {}
+                    },
+                    "user_auth_delete": {
+                        "ltma_delete_build": {},
+                        "ltma_delete_session": {},
+                        "ltma_delete_terminal_logs": {}
+                    },
+                    "user_auth_read": {
+                        "ltma_get_autoheal": {},
+                        "ltma_get_build": {},
+                        "ltma_get_cypress_artefacts": {},
+                        "ltma_get_cypress_logs": {},
+                        "ltma_get_cypress_mochawesome": {},
+                        "ltma_get_cypress_report": {},
+                        "ltma_get_lighthouse_report": {},
+                        "ltma_get_logs": {},
+                        "ltma_get_playwright_node_versions": {},
+                        "ltma_get_screenshot_by_id": {},
+                        "ltma_get_selenium_mapping": {},
+                        "ltma_get_session": {},
+                        "ltma_get_session_log": {},
+                        "ltma_get_session_log_v2": {},
+                        "ltma_get_session_screenshots": {},
+                        "ltma_get_session_video": {},
+                        "ltma_get_telemetry": {},
+                        "ltma_get_test_exceptions": {},
+                        "ltma_get_test_video": {},
+                        "ltma_get_zalenium_command_logs": {},
+                        "ltma_get_zalenium_console_logs": {},
+                        "ltma_get_zalenium_network_logs": {},
+                        "ltma_get_zalenium_selenium_logs": {},
+                        "ltma_get_zalenium_session": {},
+                        "ltma_get_zalenium_video": {},
+                        "ltma_list_attachments": {},
+                        "ltma_list_logs": {},
+                        "ltma_playwright_trace_signed_url": {},
+                        "ltma_playwright_trace_viewer_url": {},
+                        "ltma_serve_bundler": {},
+                        "ltma_shared_test": {},
+                        "ltma_shared_verify_test": {}
+                    },
+                    "user_auth_update": {
+                        "ltma_edit_build": {},
+                        "ltma_edit_session": {},
+                        "ltma_playwright_trace_metadata": {}
+                    }
+                },
+                "key": "tms-merger-or-stage-regression-or-single-entity"
+            }
+        },
+        "ltms-tms-proxy-routes": {
+            "variant": {
+                "payload": {
+                    "user_auth_action": {
+                        "ltms_session_stop": {},
+                        "ltms_stop_test": {}
+                    },
+                    "user_auth_bulk": {
+                        "ltms_analytics_build": {},
+                        "ltms_build_bulk_delete": {},
+                        "ltms_build_search": {},
+                        "ltms_tag_get": {},
+                        "ltms_test_multipledelete": {},
+                        "ltms_test_multiplestop": {},
+                        "ltms_test_search": {},
+                        "ltms_v2_build_search": {},
+                        "ltms_v2_test_search": {}
+                    },
+                    "user_auth_create": {
+                        "ltms_test_interaction": {},
+                        "ltms_test_pause": {},
+                        "ltms_test_polling": {}
+                    },
+                    "user_auth_read": {
+                        "ltms_analytics_concurrency": {},
+                        "ltms_analytics_stats": {},
+                        "ltms_charts_index": {},
+                        "ltms_get_test": {},
+                        "ltms_get_test_org_id": {},
+                        "ltms_master_test": {},
+                        "ltms_report_report": {},
+                        "ltms_test_additional_param_get": {},
+                        "ltms_v2_analytics_concurrency": {},
+                        "ltms_v2_rbac_internal": {},
+                        "ltms_v2_test_org_details": {}
+                    },
+                    "user_auth_update": {
+                        "ltms_build_delete": {},
+                        "ltms_build_update_build_name": {},
+                        "ltms_delete_test": {},
+                        "ltms_test_mute": {},
+                        "ltms_test_update": {},
+                        "ltms_test_update_test_name": {},
+                        "ltms_v2_test_update": {}
+                    }
+                },
+                "key": "tms-merger-or-stage-regression-or-single-entity"
+            }
+        },
+        "ltms_depreciation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "martian_original_header_casing": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "memory_layer": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mishraji": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml-network-har-viewer": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_accessibility_automation": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_adaptive_resolution": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_allow_before_test_script": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_analytics_search": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_android_latest_browser": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_artefacts_available_check": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_auto_heal_baseline_capture": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_auto_mute_test": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_auto_start_safari": {
+            "variant": {
+                "payload": {
+                    "os": "macos 14.0,macos 13.0"
+                },
+                "key": "on"
+            }
+        },
+        "ml_black_screen_detection": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_boot_and_setup_simulator_from_lnrc": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_browser_driver_cleanup": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_browser_fallback_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_build_redirection_to_testlist": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_bypass_commands": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_bypass_domains": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_capability_override": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_cdp_lighthouse_api_timeout": {
+            "variant": {
+                "key": "120"
+            }
+        },
+        "ml_chrome_debug_logs": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_chrome_for_testing": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_chrome_websocket_url": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_command_log_analytics_pipeline": {
+            "variant": {
+                "key": "v2"
+            }
+        },
+        "ml_command_log_send": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_custom_vm_filter": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_cypress_debug_logs": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_cypress_tunnel_localhost_bypass": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_data_capture_snapshot_for_auteur": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_date_time_format": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_default_implicit_wait": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_disable_gpu_in_chrome_options": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_disable_wifi_check_emulator": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_enable_azure_vm_allocation": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_enable_batch_rate_limiting": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_enable_cdp_raw_logs_upload": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_enable_chrome_for_testing": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_enable_hps_lnrc_proxy": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_enable_lighthouse_hook": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_enable_maximize_browser": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_enable_new_live_stream_sdk": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_enable_test_retry": {
+            "variant": {
+                "payload": {
+                    "cypress": false,
+                    "hypertest": false,
+                    "k6": false,
+                    "playwright": false,
+                    "puppeteer": false,
+                    "selenium": true,
+                    "taiko": false
+                },
+                "key": "true"
+            }
+        },
+        "ml_enable_video_stream_after_session": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_exclude_previous_vm": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_exclude_specific_intents": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_fallback_browser_enabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_fetch_from_ltma": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_fetch_network_logs_from_s3": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_force_index_in_session_query": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_geo_location_override": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_hide_cdn": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_hps_trace_hawk": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_ios_decouple_template": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_ios_vm_live_interaction": {
+            "variant": {
+                "payload": {
+                    "allowed_templates": "macos-sequoia,macos-tahoe,macos-ventura",
+                    "allowed_templates_fe": "18.0,18.1,18.5,26.0,16.0"
+                },
+                "key": "on"
+            }
+        },
+        "ml_jdk17_unsupported_templates": {
+            "variant": {
+                "payload": {
+                    "templates": "macos-high-sierra,macos-sierra,macos-mojave,macos-catalina,macos-big-sur,windows-7,windows-10-edge-15,windows-10-edge-16,windows-10-edge-17,windows-10-edge-18,windows-7-ie-10,windows-7-ie-9,windows-7-ie-8"
+                },
+                "key": "true"
+            }
+        },
+        "ml_katalon_enabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_ltma_api_restriction": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_map_caps_to_desired_caps": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_mark_test_running_post_creation": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_martian_sse": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_martian_ws": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_max_idle_timeout": {
+            "variant": {
+                "key": "1800"
+            }
+        },
+        "ml_mobile_concurrency_sync": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_mp4_video_live_command_log": {
+            "variant": {
+                "payload": {
+                    "cypress": true,
+                    "hypertest": false,
+                    "k6": true,
+                    "liveInteractionSupportingTemplates": [
+                        "win10",
+                        "win11",
+                        "ubuntu-20",
+                        "catalina",
+                        "sonoma",
+                        "bigsur",
+                        "ventura",
+                        "monterey",
+                        "sequoia",
+                        "tahoe",
+                        "goldengate"
+                    ],
+                    "playwright": true,
+                    "puppeteer": true,
+                    "realDevice": false,
+                    "selenium": true,
+                    "taiko": true,
+                    "virtualDeviceWeb": false
+                },
+                "key": "true"
+            }
+        },
+        "ml_mp4_video_params": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_new_annotation_command_logic": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_new_cypress_test_view": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "ml_new_ffmpeg_enabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_new_vm_status_update": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_offload_artifacts_to_host": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_performance_v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_primer_revamp": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_primerv2_revamp": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "ml_public_resource_sharing_disabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_publically_route": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_pwc_custom_hook": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_r2_browser_download_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_r2_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_r2_enabled_cypress": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_record_audio": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_redact_custom_header_keys": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_remote_auto_heal": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_remove_build_filter": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_request_page_size": {
+            "variant": {
+                "key": "100"
+            }
+        },
+        "ml_resolve_tunnel_website_in_dc": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_s3_enabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_safari_mock_location": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_safari_mock_location_region": {
+            "variant": {
+                "key": "none"
+            }
+        },
+        "ml_sanctum_concurrency": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_sanctum_init_error_handling": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_screenshot_as_jpeg": {
+            "variant": {
+                "payload": {
+                    "jpeg_quality": 20
+                },
+                "key": "true"
+            }
+        },
+        "ml_serialized_command_push": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_service_primer_v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_show_archives_menu_option": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_ssh_publically_route": {
+            "variant": {
+                "payload": {},
+                "key": "false"
+            }
+        },
+        "ml_stopped_status_reason_show": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_swagger_v1_api_revamp": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_test_create_vm_async": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_test_page_in_drawer": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_test_setup_timeout": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_teststatus_running_post_session": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_tunnel_load_balance_v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_unbound": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_update_timestamp_ordering_in_ltms": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_use_gzip_to_upload": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_use_new_guacamole_service": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_use_prebuild_wda": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_use_write_db_conection": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_user_data_dir": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_verbose_webdriver_logging": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_virtual_command_log": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_virtual_device_plan_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "ml_virtual_live_command_log": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "ml_visual_screenshot_max_limit": {
+            "variant": {
+                "key": "150"
+            }
+        },
+        "ml_wasabi_enabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "ml_webdriver_mode": {
+            "variant": {
+                "payload": {
+                    "chrome": true,
+                    "edge": true,
+                    "firefox": true,
+                    "google chrome": true,
+                    "microsoft edge": true,
+                    "microsoftedge": true,
+                    "mozilla": true,
+                    "safari": true
+                },
+                "key": "conf1"
+            }
+        },
+        "ml_webrtc_streaming": {
+            "variant": {
+                "payload": {
+                    "streamingSupportedOS": [],
+                    "win11Orgs": ""
+                },
+                "key": "true"
+            }
+        },
+        "ml_wifi_enabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mlqa_testing": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile-app-accessibility": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_accessibility_webview_fix": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_adb_shell_support": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_adbd_flush_reboot": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_adblscommand": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_allow_safari_location_access": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_androidWebrtc": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_android_activity_parser_v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_android_battery_threshold": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_android_cleanup": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_android_google_account_cleanup": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_android_injection_custom_flags": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_android_keyboardmultilayout": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_android_playwright_version": {
+            "variant": {
+                "payload": {
+                    "exceptions": [
+                        "1.53.1",
+                        "1.54.0"
+                    ],
+                    "maxVersion": "1.62.0",
+                    "minVersion": "1.52.0"
+                },
+                "key": "default"
+            }
+        },
+        "mobile_androidtether": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_appCentreUpload": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_app_accessibility": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_app_r2_storage": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_app_retention": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_app_validation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_applepay": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_assistivetouch": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_atx_command_log_send": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_audioinjection": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_auth_middleware": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_automation_device_os_filter": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_automation_device_skin": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_automationrevamp": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_biometric_launch_args": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_cached_patching": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_capture_snapshot_for_auteur": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_certificate_injection": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_classproperties": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_cleanupmode": {
+            "variant": {
+                "key": "redis"
+            }
+        },
+        "mobile_clear_app_data": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_cmdlogv2enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_combined_patching": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_common_storage_app_automation": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_common_storage_browser_automation": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_common_storage_cdp": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_credit_system": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_custom_adb_command": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_custom_encoder": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_customfullscreen": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_customscrcpy": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_dedicated_extra_cleanup": {
+            "variant": {
+                "payload": {},
+                "key": "none"
+            }
+        },
+        "mobile_default_capabilities": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_default_capabilities_vd": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_defaultnetworklive": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_device_allocation_to_teams": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_device_internet_check_failure": {
+            "variant": {
+                "key": "100"
+            }
+        },
+        "mobile_device_reservation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_devicelist_count_automation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_dialog_retry_inplace_biometric": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_direct_allocation_with_regex": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_disableAppResigning": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_disable_certificate_pinning": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_disable_tether_on_android_nine": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_disable_wifi": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_disable_xf_headers": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_disablewebviewcapability": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_disk_readandwrite": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_dummy_resources": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_enable_accessibility_watcher": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_enable_low_power": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_enablenewui": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "mobile_enableresignv2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_enablesim": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_enableuniquebuild": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_enablewebrtcmetrics": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_espresso_sri_unified_video": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_fallback_to_axe_accessibility": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_file_security_checks": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_firebase_integration": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_fluttergoios": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_force_launcher_chain_patch": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_framework_injected_patch_app": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_framework_revamp": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_free_session_duration": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_free_sessions": {
+            "variant": {
+                "payload": {
+                    "countries": "US,IN"
+                },
+                "key": "true"
+            }
+        },
+        "mobile_generate_cmd_log_meta": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_gms_update": {
+            "variant": {
+                "key": "factory-version"
+            }
+        },
+        "mobile_goios_resultbundle": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_groupfolder": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_hmac_urls": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_hps_command_log_worker": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_icontrol": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_icontrol_v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_ignorehosts": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_individual_ss_not_supported": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_installGoIos": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_internet_latency_tolerance": {
+            "variant": {
+                "key": "0"
+            }
+        },
+        "mobile_invalidate_inbound_headers": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_ios_audio_recording": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_ios_framework_ltapp": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_ios_injection_custom_flags": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_ios_message": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_ios_offline_mode": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_ios_playwright_version": {
+            "variant": {
+                "payload": {
+                    "": "1-54-0-beta-20",
+                    "1.52.0": "1-54-0-beta-20",
+                    "1.52.1": "1-54-0-beta-20",
+                    "1.53.0": "1-54-0-beta-20",
+                    "1.53.2": "1-54-0-beta-20",
+                    "1.55.0": "1-54-0-beta-20",
+                    "1.55.1": "1-54-0-beta-20",
+                    "1.56.0": "1-54-0-beta-20",
+                    "1.56.1": "1-54-0-beta-20",
+                    "1.57.0": "1-54-0-beta-20"
+                },
+                "key": "true"
+            }
+        },
+        "mobile_ios_resign_infra_v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_ios_resign_optimization": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_ios_rgbconversion": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_ios_video_subprocess": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_ios_webview_inspection_injection": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_keychain_accessibility_rewrite": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_lambda_edge_cache": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_lambdatestservice_popups": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_languagelocale_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_languagelocaleenabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_livedebug": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_lt_language_locale": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_maestro_wda_version": {
+            "variant": {
+                "key": "46739ee7c83fc6663ced4581fe4be1a8e39632da"
+            }
+        },
+        "mobile_manual_appium_caps": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_manualadbshell": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_manualappiumversion": {
+            "variant": {
+                "payload": {
+                    "android": "2.2.1",
+                    "ios": "2.2.1"
+                },
+                "key": "2-2-1"
+            }
+        },
+        "mobile_manualdashboard": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_manualminoros": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_manualprofiling": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_max_test_timeout_private_cloud": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_media_retention": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_merge_testinfo_topic": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_mitm_disable_upstream_cert": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_multidevice": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_multidevice_compatibility": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_network_logs_options": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_newandroidcrashlogs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_newdevicescount": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_non_regex_device_validation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_noninstrumentation": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_ondemand_device_action": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_passcode": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_performance_analysis": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_playstore_control": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_preferwifibridge": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_primer_v2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_primerv2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_private_device_custom_name": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_private_reboot_config": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_proxy_bypass_hosts": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_r2_storage": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_rdtsa_merger": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_regex_list_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_region_based_stun": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_remove_orientation_caps": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_resignv2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_resize_image_android": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_resize_image_ios": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_restart_gms_package": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_run_custom_xcui_script": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_run_wda_via_variant": {
+            "variant": {
+                "key": "default"
+            }
+        },
+        "mobile_sanctum": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_sanitize_appium_caps_web": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_sanitize_creds": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_scrcpy_adaptive_audio": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_scrcpy_recording_orientation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_scrcpy_stats": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_scrcpy_v2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_scrcpy_v3": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_scrcpy_ws_domain": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_scrcpyv3_automation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_scrcpyv3_new_orientation": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_scrcpyv3_parameters": {
+            "variant": {
+                "payload": {
+                    "version": "3.0.2"
+                },
+                "key": "3-0-2"
+            }
+        },
+        "mobile_screenshot_compression": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_sessionratelimit": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_setup_evidence_recording": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_setup_goios": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_smart_heal_enabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_stage_allocation_host": {
+            "variant": {
+                "payload": {
+                    "host_ips": [
+                        "10.151.0.182",
+                        "10.151.0.183",
+                        "10.151.0.230",
+                        "10.146.1.65",
+                        "10.100.48.227",
+                        "10.100.49.31",
+                        "10.100.49.32",
+                        "10.100.49.33",
+                        "10.100.48.228",
+                        "10.151.1.250",
+                        "10.151.1.30",
+                        "10.151.0.69",
+                        "10.100.48.72",
+                        "10.100.48.144",
+                        "10.151.0.107",
+                        "10.146.0.237",
+                        "10.146.0.209",
+                        "10.146.0.243",
+                        "10.100.48.159",
+                        "10.100.48.132",
+                        "10.150.0.45",
+                        "10.151.1.161",
+                        "10.151.1.96",
+                        "10.151.1.191",
+                        "10.151.1.193",
+                        "10.151.1.160",
+                        "10.100.49.177",
+                        "10.150.0.37"
+                    ]
+                },
+                "key": "stage_rd"
+            }
+        },
+        "mobile_standardisednetworklogs": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_sumo_android_device_log": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_supervised_pairing_ios": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_testcasemanager": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_tv_automation": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_universal_patching": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_update_ios_app": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_upload_media_name_fix": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_uploadfile": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_vapt": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_vcf_contacts_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_videoinjection": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_videosync": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_videosyncandroid": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_voiceover": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_voiceoverv2": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "mobile_vpn_proxy": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_wdaios17noninteractive": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_webviewdevtools": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_webworker_keepalive": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_whitelisted_appium_caps": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_wiped_emulator": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "mobile_xcui_goios": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "mobile_xcui_thunk_discovery": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "new-test-manager": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "new_dashboard": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "node_tls_reject": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "nuisance-sdk": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "pay_as_you_go_enabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "project-teams-matrix-enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "project_selection_enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "pw_mobile_live_command_logs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "pw_retry_intervals": {
+            "variant": {
+                "payload": {
+                    "pwRetryIntervals": {
+                        "desktop": [
+                            "200"
+                        ],
+                        "realMobile": [
+                            "600"
+                        ]
+                    }
+                },
+                "key": "pwretryintervals"
+            }
+        },
+        "pw_server_max_retries": {
+            "variant": {
+                "payload": {
+                    "pwServerMaxRetries": {
+                        "desktop": "400",
+                        "realMobile": "900"
+                    }
+                },
+                "key": "pwservermaxretries"
+            }
+        },
+        "rbac_project_create_auto_update": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "rbac_team_based_management": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "rd_auto_mute_test": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "rd_web_async_test_create": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "realtime": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "region_selector_enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "remove-product-from-sidebar": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "reporting_shell_entry": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "retry_command_grouping": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "sample_experiment": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "sanctum_fair_usage_policy": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "sanctum_freemium_validation": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "sanctum_hyp_callback_exclusion": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "sanctum_shared_concurrency": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "sanctum_tiered_usage_policy": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "sanctum_widget_frontend": {
+            "variant": {
+                "payload": {
+                    "frequency": 5000
+                },
+                "key": "true"
+            }
+        },
+        "sanctum_widget_refresh_frequency": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "scim-group-assignment": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "selenium_session_retry_count": {
+            "variant": {
+                "key": "1"
+            }
+        },
+        "sessionmode": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "simulator_custom_xcrun_command": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "simulator_video_record_mode": {
+            "variant": {
+                "key": "wda"
+            }
+        },
+        "slack_multi_channel_support": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "smartui-authorized-screenshots": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "smartui_baseline_build_email_notification": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "smartui_comparepixel_resemblejs": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_comparepixel_v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_comparepixel_v3": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_a-b": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dot_auditlogs": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "smartui_dot_auto_add_new_to_baseline": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_build_config_ascending_order": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_check_pending_request": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "smartui_dot_comments": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "smartui_dot_compare_latest_version": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dot_create_build_cache": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dot_create_cli_builds_in_cli_project": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_crop_status_bar": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_enable_automation_layout": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dot_fetch_project_lite": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dot_floating_precision": {
+            "variant": {
+                "key": "2"
+            }
+        },
+        "smartui_dot_groupby-test": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_highlightdiff": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "smartui_dot_humaize_diff": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "smartui_dot_humanize_diff": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dot_layout": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_omni": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "smartui_dot_one_hop_merge": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_pixel_resize_on_retry": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_rca": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dot_screenshot_count_v2": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_screenshot_filter_all": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_shareable_link": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_smartignore_engine_v2": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_smartignore_subpixelshift": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dot_sscounter": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "smartui_dot_testid_filter": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "smartui_dot_unified_project": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dot_visual_report": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dot_web_scanner": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dotui_kafka_flow": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dotui_kafka_flow_storybook": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dotui_network_logs": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "smartui_dotui_new_chromium_v2": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dotui_remove_html_comments": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_dotui_use_optimized_rendering": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_dotui_use_proxy": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "smartui_dotui_wait_until_load": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "smartui_drawonscreenshot": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "smartui_element_cdp_screenshot": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_ignore_select_v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_store_session_build_data": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "smartui_trial_freemium_enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "template_prompt_mapping": {
+            "variant": {
+                "payload": {
+                    "INTENT_GENERATION_MESSAGE": {
+                        "model": "gpt-4.1"
+                    },
+                    "VISION_QUERY_TEMPLATE": {
+                        "model": "gpt-4.1"
+                    }
+                },
+                "key": "4_1-migration"
+            }
+        },
+        "test-flag": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "test-manager": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "test_list_metadata_issue_summary": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "test_manager": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "test_manager_csv_import_versioning": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "test_manager_deduplication_engine": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "testcaseview": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "testflag": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "testing1": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "testing2": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "testing_jatin_50": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "testing_jatin_51": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "tms-extended-filters-reports": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "tms-merger-dashboard": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "tms-suggested-tests": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "tms-test": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "tms_async_test_run_creation": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "tms_insights_doc_from_primary": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "tms_insights_from_execution": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "tms_merger_build_routing": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "tms_merger_enabled": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "tms_merger_hyper_web": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "tms_merger_ml": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "tms_onboarding": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "tms_project_counts_from_opensearch": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "tms_test_run_step_report": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "tms_traceability_report_v2": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "tms_zephyr_migration": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "toggle_testmu_ai_capabilities": {
+            "variant": {
+                "key": "on"
+            }
+        },
+        "tunnel_audit_logs": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "use_pw_container_project_path": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "user-suborg-access": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "utilise_always_match_caps": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "v16_bifurcation_judge_config": {
+            "variant": {
+                "payload": {
+                    "enabled": true,
+                    "model": "openai/gpt-5.5",
+                    "sample_pct": 50,
+                    "timeout_sec": 180
+                },
+                "key": "default-config"
+            }
+        },
+        "v16_bifurcation_model": {
+            "variant": {
+                "key": "openai"
+            }
+        },
+        "v16_bifurcation_phase_v2": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "v16_controller_node_config": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "vd_live_interaction_ios_app": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "vd_regex_list_enabled": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "virtual_device_mp4_video": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "virtual_emulatorscrcpy": {
+            "variant": {
+                "payload": {
+                    "10": true,
+                    "11": true,
+                    "12": true,
+                    "13": true,
+                    "14": true,
+                    "15": true,
+                    "7": true,
+                    "7.1": true,
+                    "8": true,
+                    "8.1": true,
+                    "9": true
+                },
+                "key": "true"
+            }
+        },
+        "virtual_idb_enabled": {
+            "variant": {
+                "key": "false"
+            }
+        },
+        "virtual_mobile_android_on_arm": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "virtual_mobile_app_storage_sdk": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "virtual_mobile_lmrc_to_mb": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "virtual_mobile_r2_storage": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "virtual_mobile_use_app_cache_server": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "virtual_mobile_use_cachedapp": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "virtual_mobile_web_storage_sdk": {
+            "variant": {
+                "key": "true"
+            }
+        },
+        "virtual_simulatorwebrtc": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "vm_shuffler": {
+            "variant": {
+                "key": "off"
+            }
+        },
+        "w3cprotocolasdefaultvirtualdevice": {
+            "variant": {
+                "key": "false"
+            }
+        }
+    }
+}
